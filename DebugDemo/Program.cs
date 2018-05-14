@@ -12,10 +12,15 @@ namespace DebugDemo
         {
 
 
+            Console.WriteLine("Test");
 
 
 
-
+            if (System.Diagnostics.Debugger.IsAttached)
+            {
+                Console.WriteLine("Tryk en tast...");
+                Console.ReadKey();
+            }
         }
     }
 }
