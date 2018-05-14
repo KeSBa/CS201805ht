@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27428.2043
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DebugDemo", "DebugDemo\DebugDemo.csproj", "{136573DB-66F7-4C0F-8021-4543F79282CE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Variabler", "Variabler\Variabler.csproj", "{B140CE42-A9AB-4F39-A698-F89AFAB03EAD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{136573DB-66F7-4C0F-8021-4543F79282CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{136573DB-66F7-4C0F-8021-4543F79282CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{136573DB-66F7-4C0F-8021-4543F79282CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B140CE42-A9AB-4F39-A698-F89AFAB03EAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B140CE42-A9AB-4F39-A698-F89AFAB03EAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B140CE42-A9AB-4F39-A698-F89AFAB03EAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B140CE42-A9AB-4F39-A698-F89AFAB03EAD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
