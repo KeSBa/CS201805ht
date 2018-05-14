@@ -52,7 +52,7 @@ namespace Variabler
 
             const int antalMåneder = 12;
             // antalMåneder = 10;
-
+            
             // System.Configuration.ConfigurationManager.
             double momsPct = 0.25;
 
@@ -151,6 +151,7 @@ namespace Variabler
             p6.Alder++;
 
 
+            KortFarve tt;
 
             
             
