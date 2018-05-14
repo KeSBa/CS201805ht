@@ -14,7 +14,22 @@ namespace DebugDemo
 
             Console.WriteLine("Test");
 
+            int i = 10;
+            i++;
+            i = i * 2;  // i *=2;
 
+            for (int x = 0; x < 10; x++)
+            {
+                if (x < 5)
+                {
+                    Console.WriteLine("mindre en fem");
+                }
+                else {
+                    Console.WriteLine("5 eller større");                    
+                }
+            }
+
+            A();
 
             if (System.Diagnostics.Debugger.IsAttached)
             {
@@ -22,5 +37,17 @@ namespace DebugDemo
                 Console.ReadKey();
             }
         }
+
+        static void A() {
+            B();
+        }
+        static void B() {
+            C();
+        }
+        static void C() {            
+            Console.WriteLine("I c");
+        }
+
+
     }
 }
