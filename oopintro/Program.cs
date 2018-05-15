@@ -18,6 +18,9 @@ namespace oopintro
             
             Console.WriteLine(p.ToString());
 
+            string t = $"dklgdlkgfh { p.Alder} dklghsdk sdlkgf { p.Alder}";
+
+
         }
     }
 
