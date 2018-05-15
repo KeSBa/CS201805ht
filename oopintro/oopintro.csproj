@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{F0BCCC4F-BFA6-4653-885F-751824CDEB18}</ProjectGuid>
+    <ProjectGuid>{C9DC50DE-6817-4218-B61E-54EFAB3B7943}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Metoder</RootNamespace>
-    <AssemblyName>Metoder</AssemblyName>
+    <RootNamespace>oopintro</RootNamespace>
+    <AssemblyName>oopintro</AssemblyName>
     <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,17 +42,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Person.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\oopintro\oopintro.csproj">
-      <Project>{c9dc50de-6817-4218-b61e-54efab3b7943}</Project>
-      <Name>oopintro</Name>
-    </ProjectReference>
+    <None Include="ClassDiagram1.cd" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -11,6 +11,8 @@ namespace Metoder
         static void Main(string[] args)
         {
 
+            
+
             bool res1 = Test1();
             Test2();
             MinReturType res2 = Test3();
