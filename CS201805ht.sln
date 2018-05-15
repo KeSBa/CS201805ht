@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Variabler", "Variabler\Vari
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StackHeap", "StackHeap\StackHeap.csproj", "{2AB69ACA-39F7-4B4C-B293-46DAC64F4EB7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RefVariabler", "RefVariabler\RefVariabler.csproj", "{C2AA724B-44B7-4010-957F-038F1A83B1F1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{2AB69ACA-39F7-4B4C-B293-46DAC64F4EB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2AB69ACA-39F7-4B4C-B293-46DAC64F4EB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2AB69ACA-39F7-4B4C-B293-46DAC64F4EB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2AA724B-44B7-4010-957F-038F1A83B1F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2AA724B-44B7-4010-957F-038F1A83B1F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2AA724B-44B7-4010-957F-038F1A83B1F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2AA724B-44B7-4010-957F-038F1A83B1F1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
