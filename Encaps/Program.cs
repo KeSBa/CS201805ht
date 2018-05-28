@@ -36,10 +36,36 @@ namespace Encaps
             Hund j = new Hund { Alder = 10, Navn = "lkj" };
 
 
-            
+            // Instans metode
+            B b2 = new B();
+            b2.Metode1();
+
+            // Statisk
+            B.Metode2();
+
+            HjælpeBibliotek.Test();
+
+
+            Vare v = new Vare();
+            Vare.MomsPct = 0.25;
             
 
         }
+    }
+
+    class Vare {
+
+        public static double MomsPct { get; set; }
+
+    }
+
+    class B {
+        public void Metode1() { }
+        public static void Metode2() { }
+    }
+
+    static class HjælpeBibliotek {
+        public static void Test() { }
     }
 
     class A {
