@@ -38,6 +38,10 @@ namespace Metoder
 
             VisFiler("c:\\temp");
 
+            //(string, int) res7 = Test3a();
+            var res7 = Test3a();
+
+
         }
 
         public static void VisFiler(string mappe) {
@@ -86,6 +90,18 @@ namespace Metoder
             r.a = "lkj lkj";
             r.b = 10;
             return r;
+        }
+
+        static (string , int ) Test3a()
+        {
+
+            return ("", 5);
+        }
+
+        static (string navn, int alder) Test3b()
+        {
+
+            return ("", 5);
         }
 
         static void Test4(int a, bool b)

@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "oopintro", "oopintro\oopint
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormDemo", "WinFormDemo\WinFormDemo.csproj", "{4823BBFB-DD20-4DAE-8952-FB6739B880A7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Encaps", "Encaps\Encaps.csproj", "{9BD1C40F-8778-4996-8948-5A9FA997ED06}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{4823BBFB-DD20-4DAE-8952-FB6739B880A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4823BBFB-DD20-4DAE-8952-FB6739B880A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4823BBFB-DD20-4DAE-8952-FB6739B880A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BD1C40F-8778-4996-8948-5A9FA997ED06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BD1C40F-8778-4996-8948-5A9FA997ED06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BD1C40F-8778-4996-8948-5A9FA997ED06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BD1C40F-8778-4996-8948-5A9FA997ED06}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

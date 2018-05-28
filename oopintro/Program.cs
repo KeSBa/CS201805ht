@@ -21,6 +21,14 @@ namespace oopintro
             string t = $"dklgdlkgfh { p.Alder} dklghsdk sdlkgf { p.Alder}";
 
 
+            Hund h; // stack
+            //h = new Hund("a", 10); // Heap
+
+            //h.Navn = "b";
+            h = new Hund();
+            Console.WriteLine(h.Navn.ToUpper());
+
+
         }
     }
 

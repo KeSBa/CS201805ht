@@ -20,6 +20,16 @@ namespace WinFormDemo
         private void button1_Click(object sender, EventArgs e)
         {
             textBox1.Text = DateTime.Now.ToLongTimeString();
+
+            Hund h = new Hund();
+            propertyGrid1.SelectedObject = h;
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Hund h = (Hund)propertyGrid1.SelectedObject;
+
         }
     }
 }
