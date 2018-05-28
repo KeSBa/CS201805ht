@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Encaps", "Encaps\Encaps.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BestPratice", "BestPratice\BestPratice.csproj", "{B1ADEBEE-80A9-4F62-838A-93327AB3632E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniERP", "MiniERP\MiniERP.csproj", "{021114FC-A7DE-46DA-BB14-4E78AC36386C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{B1ADEBEE-80A9-4F62-838A-93327AB3632E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B1ADEBEE-80A9-4F62-838A-93327AB3632E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B1ADEBEE-80A9-4F62-838A-93327AB3632E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{021114FC-A7DE-46DA-BB14-4E78AC36386C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{021114FC-A7DE-46DA-BB14-4E78AC36386C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{021114FC-A7DE-46DA-BB14-4E78AC36386C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{021114FC-A7DE-46DA-BB14-4E78AC36386C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
